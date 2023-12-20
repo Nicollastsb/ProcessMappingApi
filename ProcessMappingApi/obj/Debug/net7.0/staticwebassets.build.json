@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gCtss9kVTjoayOtp57cYbsn22CKzSgDXIXXvBD+3/aI=",
+  "Source": "ProcessMappingApi",
+  "BasePath": "_content/ProcessMappingApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
