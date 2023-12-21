@@ -196,6 +196,7 @@ C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debu
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\ProcessMappingApi.AssemblyInfo.cs
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\ProcessMappingApi.csproj.CoreCompileInputs.cache
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\ProcessMappingApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\ProcessMappingApi.sourcelink.json
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Nícollas\source\repos\New\ProcessMappingApi\ProcessMappingApi\obj\Debug\net7.0\staticwebassets\msbuild.ProcessMappingApi.Microsoft.AspNetCore.StaticWebAssets.props

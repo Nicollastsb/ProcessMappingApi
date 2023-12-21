@@ -17,7 +17,7 @@ namespace ProcessMappingApi.Repositories
         public async Task<CompanyProcess> CreateCompanyProcessRepository(CompanyProcess companyProcess)
         {
             companyProcess.ModificationDate = DateTime.Now;
-            companyProcess.SubProcesses.ToList().ForEach(p=>p.ModificationDate = DateTime.Now);
+            companyProcess.SubProcesses.ToList().ForEach(p => { p.ModificationDate = DateTime.Now; p.AreaId = companyProcess.AreaId; p.Area = null; }) ;
             companyProcess.Area = null;
             _context.CompanyProcesses.Add(companyProcess);
             await _context.SaveChangesAsync();

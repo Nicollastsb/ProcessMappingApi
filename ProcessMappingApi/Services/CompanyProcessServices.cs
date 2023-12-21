@@ -58,12 +58,11 @@ namespace ProcessMappingApi.Services
             foreach(var subprocess in companyProcessAreaDto.SubProcesses.ToList())
             {
                 subprocess.CompanyProcessId = companyProcessAreaDto.Id;
+                subprocess.AreaId = companyProcessAreaDto.AreaId;
                 if (subprocess.Id == null)
                     await CreateCompanyProcessServices(_mapper.Map<CompanyProcessAreaDto>(subprocess));
                 else if (subprocess.Changed == true && subprocess.Id != null)
                     await UpdateCompanyProcessServices(subprocess.Id ?? Guid.Empty, subprocess);
-                else if (subprocess.Deleted == true && subprocess.Id != null)
-                    await DeleteCompanyProcessServices(subprocess.Id ?? Guid.Empty);
             }
         }
 
